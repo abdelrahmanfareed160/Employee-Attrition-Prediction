@@ -8,7 +8,7 @@ import os
 os.environ["STREAMLIT_SERVER_PORT"] = "8000"
 os.environ["STREAMLIT_SERVER_ENABLECORS"] = "false"
 
-# Load your trained model
+
 model = joblib.load('ada_model.pkl')
 
 # Title
