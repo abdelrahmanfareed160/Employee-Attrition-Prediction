@@ -4,6 +4,9 @@ import streamlit as st
 import pandas as pd
 from sklearn import preprocessing
 
+import os
+os.environ["STREAMLIT_SERVER_PORT"] = "8000"
+os.environ["STREAMLIT_SERVER_ENABLECORS"] = "false"
 
 # Load your trained model
 model = joblib.load('xgb_model.pkl')
