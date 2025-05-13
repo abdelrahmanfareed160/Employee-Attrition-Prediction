@@ -6,7 +6,7 @@ from sklearn import preprocessing
 
 
 # Load your trained model
-model = joblib.load('xgb_model.pkl')
+model = joblib.load('ada_model.pkl')
 
 # Title
 st.title("Employee Attrition Predictor")
